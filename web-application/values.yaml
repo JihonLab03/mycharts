@@ -3,8 +3,8 @@
 replicaCount: 1
 revisionHistoryLimit: 1
 image:
-  repository: web-application
-  tag: 
+  repository: mycluster.icp:8500/default/web-application
+  tag: 0.0.1 
   pullPolicy: IfNotPresent
   resources:
     requests:

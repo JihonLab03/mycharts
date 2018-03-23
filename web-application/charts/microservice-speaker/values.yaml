@@ -3,8 +3,8 @@
 replicaCount: 1
 revisionHistoryLimit: 1
 image:
-  repository: microservice-speaker
-  tag: 
+  repository: mycluster.icp:8500/default/microservice-speaker
+  tag: 0.0.1 
   pullPolicy: IfNotPresent
   resources:
     requests:
